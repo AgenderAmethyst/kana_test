@@ -12,6 +12,7 @@ function gen(){
 function guess(g){
     if(event.key === 'Enter') {
         alert(g.value === currentguess[0]);
+        gen()
     }
 }
 
@@ -20,4 +21,6 @@ window.onload = function() {
     guessbox = document.getElementById("guess");
     result_i = document.getElementById("result-incorrect");
     result_c = document.getElementById("result-correct");
+
+    this.gen()
 }
