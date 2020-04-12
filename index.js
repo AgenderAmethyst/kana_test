@@ -34,7 +34,7 @@ function guess(g){
         }
         total++
         percent = (correct / total) * 100;
-        statsbox.innerHTML = `Score: ${correct}/${total} - ${percent}%`
+        statbox.innerHTML = `Score: ${correct}/${total} - ${percent}%`
         guessbox.value = "";
         gen()
     }
@@ -43,7 +43,7 @@ function guess(g){
 function reset(){
     total = 0;
     correct = 0;
-    statbox.innerHTML = "";
+    statbox.innerHTML = `Score: ${correct}/${total} - ${percent}%`
 }
 
 window.onload = function() {
