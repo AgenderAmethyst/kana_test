@@ -1,2 +1,2 @@
 # kana_test
-hiragana and katakana test
+Memory test for Hiragana and Katakana scripts
