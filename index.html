@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <h1>Kana Tester</h1>
+        <h2>By <a href="https://twitter.com/KyokoLudenberg">Amethyst</a> of The Root System ~ #</h2>
+        <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src='index.js'></script>
+    </head>
+    <body>
+        <div class="option">
+            <label for="scripts">Character Set(s)</label>
+            <select id="scripts" name="scripts">
+                <option value="kata">Katakana</option>
+                <option value="hira">Hiragana</option>
+                <option value="both">Both</option>
+            </select>
+        </div>
+        <div class="char">
+            <p id="char">?</p>
+        </div>
+        <div class="guess">
+            <input type="text" name="guess" id="guess" onkeydown="guess(this)">
+        </div>
+        <div class="result">
+            <div id="result-correct">
+                <p>Correct!</p>
+            </div>
+            <div id="result-incorrect">
+                <p>Incorrect...</p>
+            </div>
+        </div>
+    </body>
+</html>
