@@ -22,11 +22,11 @@ function gen(){
 function guess(g){
     if(event.key === 'Enter') {
         if(g.value === currentguess[0]){
-            result_i.style.visibility = "hidden";
-            result_c.style.visibility = "visible";
+            result_i.style.display = "none";
+            result_c.style.display = "inline";
         }else {
-            result_c.style.visibility = "hidden";
-            result_i.style.visibility = "visible";
+            result_c.style.display = "none";
+            result_i.style.display = "inline";
         }
         guessbox.value = "";
         gen()
