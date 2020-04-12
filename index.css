@@ -12,10 +12,10 @@ body{
     font-size: 72pt;
 }
 
-.result-correct{
+#result-correct{
     display: none;
 }
 
-.result-incorrect{
+#result-incorrect{
     display: none;
 }
