@@ -7,3 +7,7 @@ html{
 body{
     text-align: center;
 }
+
+#char{
+    font-size: 72pt;
+}
