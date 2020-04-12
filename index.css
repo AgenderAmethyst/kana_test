@@ -11,3 +11,11 @@ body{
 #char{
     font-size: 72pt;
 }
+
+.result-correct{
+    display: none;
+}
+
+.result-incorrect{
+    display: none;
+}
