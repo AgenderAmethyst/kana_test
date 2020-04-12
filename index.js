@@ -21,7 +21,14 @@ function gen(){
 
 function guess(g){
     if(event.key === 'Enter') {
-        alert(g.value === currentguess[0]);
+        if(g.value === currentguess[0]){
+            result_i.style.visibility = "hidden";
+            result_c.style.visibility = "visible";
+        }else {
+            result_c.style.visibility = "hidden";
+            result_i.style.visibility = "visible";
+        }
+        guessbox.value = "";
         gen()
     }
 }
