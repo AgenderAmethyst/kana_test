@@ -10,7 +10,7 @@ function gen(){
     }else if (scriptsbox.value === "kata"){
         currentguess = Object.entries(katakana)[Math.floor(Math.random() * Object.entries(katakana).length)];
     }else{
-        if (Math.random >= 0.5){
+        if (Math.random() > 0.5){
             currentguess = Object.entries(hiragana)[Math.floor(Math.random() * Object.entries(hiragana).length)];
         }else {
             currentguess = Object.entries(katakana)[Math.floor(Math.random() * Object.entries(katakana).length)];
