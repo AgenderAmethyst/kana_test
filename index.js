@@ -4,6 +4,7 @@ var hiragana = { a: "あ", i: "い", u: "う", e: "え", o: "お", ka: "か", ga
 
 function guess(g){
     if(event.key === 'Enter') {
+        charbox.innerHTML = hiragana[Math.floor(Math.random() * hiragana.length)]
         alert(g.value)
     }
 }
@@ -14,4 +15,3 @@ window.onload = function() {
     result_i = document.getElementById("result-incorrect");
     result_c = document.getElementById("result-correct");
 }
-charbox.innerHTML = hiragana[Math.floor(Math.random() * hiragana.length)]
