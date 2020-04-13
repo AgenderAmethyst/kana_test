@@ -43,6 +43,7 @@ function guess(g){
 function reset(){
     total = 0;
     correct = 0;
+    percent = 0;
     statbox.innerHTML = `Score: ${correct}/${total} - ${percent.toFixed(2)}%`
 }
 
