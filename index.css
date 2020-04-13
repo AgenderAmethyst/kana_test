@@ -19,3 +19,7 @@ body{
 #result-incorrect{
     display: none;
 }
+
+a {
+	color: #b57edc;
+}
